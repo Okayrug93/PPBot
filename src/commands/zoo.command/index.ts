@@ -1,4 +1,4 @@
-import { Command } from '@/commands/Command.class';
+import { Command } from '@/classes/Command.class';
 import { data } from '@/commands/zoo.command/zoo.data';
 import { execute } from '@/commands/zoo.command/zoo.execution';
 
