@@ -6,6 +6,6 @@ import {
 
 export class Command {
     data: RESTPostAPIChatInputApplicationCommandsJSONBody;
-    execute: (interacion: ChatInputCommandInteraction) => Promise<void>;
+    execute: (interaction: ChatInputCommandInteraction) => Promise<void>;
     autocomplete?: (interaction: AutocompleteInteraction) => Promise<void>;
 }
