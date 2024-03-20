@@ -1,19 +1,17 @@
 {
     "compilerOptions": {
-      "module": "commonjs",
-      "target": "ES2022",
-      "moduleResolution": "node",
-      "baseUrl": "./",
-      "esModuleInterop": true,
-      "outDir": "build",
-      "paths": {
-        "@/*": ["./src/*"]
-      },
-      "types": [],
-      "skipLibCheck": true /* Skip type checking of declaration files. */,
-      "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+        "module": "commonjs",
+        "target": "ES2022",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "outDir": "build",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "types": [],
+        "skipLibCheck": true /* Skip type checking of declaration files. */,
+        "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
     },
     "include": ["src/**/*.ts", "tests/**/*.ts"],
     "exclude": ["node_modules", "build"]
-  }
-  
+}
